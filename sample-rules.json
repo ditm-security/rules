@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "lure": [
+    {"re": "disable\\s+(your\\s+)?antivirus", "flags": "i", "score": 35, "label": "Disable antivirus instruction"},
+    {"re": "press\\s+windows\\s*\\+\\s*r", "flags": "i", "score": 30, "label": "Hold+Press R instruction"},
+    {"re": "paste.{0,15}(powershell|terminal|cmd|command)", "flags": "i", "score": 40, "label": "Paste into terminal instruction"}
+  ],
+  "captcha": [
+    {"re": "verify\\s+you\\s+are\\s+human", "flags": "i", "score": 20, "label": "Fake CAPTCHA prompt"},
+    {"re": "i\\s+am\\s+not\\s+a\\s+robot", "flags": "i", "score": 15, "label": "Fake bot-check prompt"}
+  ],
+  "clipboard": [
+    {"re": "powershell\\s+-[ew]", "flags": "i", "score": 50, "label": "[R] PowerShell in clipboard"},
+    {"re": "mshta\\s+https?://", "flags": "i", "score": 55, "label": "[R] mshta URL execution"}
+  ]
+}
