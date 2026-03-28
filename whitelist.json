@@ -2,11 +2,6 @@
   "version": 1,
   "description": "Remote whitelist — domains here bypass all scanning",
   "domains": [
-    "google.com",
-    "youtube.com",
-    "github.com",
-    "stackoverflow.com",
-    "carsonww.com",
-    "clickfixhunter.com"
+    "magnetforensics.com"
   ]
 }
