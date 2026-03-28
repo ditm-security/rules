@@ -2,6 +2,10 @@
   "version": 1,
   "description": "Remote whitelist — domains here bypass all scanning",
   "domains": [
-    "magnetforensics.com"
+    "magnetforensics.com",
+    "swgde.org",
+    "adobe.com",
+    "bakerstreetforensics.com"
+    
   ]
 }
